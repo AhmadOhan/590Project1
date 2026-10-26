@@ -1,0 +1,7 @@
+Ohan Ahmad:
+Instruction Memory, Register File, ALU, Multiplexers
+Sadiya Kabir:
+Program counter, Data memory, Control Units, and Sign Extension
+
+DISCLAIMER:
+DISREGARD THIS, SADIYA HAS WITHDRAWN FROM THE COURSE

@@ -1,0 +1,33 @@
+Minutes For Wednesday September 30th at 4:00PM:
+    Topics Discussed:
+        - Discussed Work Distribution (in work_distribution.txt)
+        - Discussed time to meet next: Friday October 2nd at 8:00PM. (Pushed earlier to 3:30PM)
+        - Discussed that Sadia will create files by next meeting for all components
+        - Discussed that Ohan will take ownership of meeting minutes.
+
+Minutes for Friday October 2nd at 3:30PM:
+    Topics Discussed:
+        - Discussed creation of files (1 file per chunk)
+        - Discussed timeline of expected completion (1 file every week)
+        - Will have software for simulation and code writing ready by Sunday the 4th (word of mouth)
+        - Discussed that Ohan will hold onto the board
+        - Disuccsed next meeting: Pending due to exam schedules
+
+Minutes from 10/8 at 3:00PM:
+    Topics Discussed:
+        - Taking a Break for Break
+        - Completing at least 2 files by next meeting
+        - Next meeting 10/17 @3:00PM
+Note: Sadiya informed me as of 7:15PM 10/16 that she has withdrawn from the course. 
+Awaiting further instruction from the professor and TA's
+
+Converting this to log of work completed
+
+Minutes from 10/17 at 3:00PM:
+    - Informed that I will be moving solo
+    - Will try to complete all files by end of checkpoint (Draft)
+    - After Checkpoint, intending on doing testbench and hardware test after the checkpoint
+
+Minutes from 10/18 at 3:00PM:
+    - Files written (alu, instruction_memory, multiplexers, register_file, control_unit, data_memory, program_counter, sign_extension)
+    - prepared for checkpoint
