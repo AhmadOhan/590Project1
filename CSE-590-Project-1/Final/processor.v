@@ -49,7 +49,6 @@ module processor(
     
 
     instruction_memory imem_inst ( //instruction memory
-        .clock(clock), //grabs clock
         .pc_address(pc_current), //grabs the pc address
         .instructions(instruction)); //grabs the instructions
     
@@ -152,16 +151,13 @@ module alu(
 endmodule
 //Instruction Memory
 module instruction_memory(
-    input wire clock,
     input wire [15:0] pc_address, // receiving a 16 bit input wire called pc_address from the PC
-    output reg [15:0] instructions); //outputting a 16 bit wire called instructions from memory location
+    output wire [15:0] instructions); //outputting a 16 bit wire called instructions from memory location
     reg [15:0] memory [255:0]; //creating 256 slots that are each 2 bytes
     initial begin 
         $readmemb("instructions.txt", memory); //reads text instructions from external file and converts to mem array
     end
-    always @(posedge clock) begin
-        instructions <= memory[pc_address[8:1]]; //basically assigning it to the first 8 bit index for the 256 slots while still being word aligned and incrementing by 2
-    end
+    assign instructions = memory[pc_address[8:1]]; //basically assigning it to the first 8 bit index for the 256 slots while still being word aligned and incrementing by 2
 endmodule
 // Multiplexers
 module multiplexers(
@@ -256,13 +252,13 @@ module data_memory(
     input wire enabled, //write enabled
     input wire [15:0] address, //memory address of data
     input wire [15:0] write, //write back value
-    output reg [15:0] read); //read data
+    output wire [15:0] read); //read data
     reg [15:0] memory [255:0]; //memory
+    assign read = memory[address[8:1]]; //read the memory address
     always @(posedge clock) begin  //only only valid clock cycle
         if (enabled) begin //if writeback is enabled
             memory[address[8:1]] <= write; //write value back to memory
         end
-        read <= memory[address[8:1]]; //read the memory address
     end
 endmodule
 // Program Counter
