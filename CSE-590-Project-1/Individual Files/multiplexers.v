@@ -1,4 +1,3 @@
-// Multiplexers
 module multiplexers(
     input wire [15:0] input0, // receiving a wire of size 16 bit called input0
     input wire [15:0] input1, // receiving a wire of size 16 bit called input1

@@ -1,4 +1,3 @@
-//Data Memory
 module data_memory(
     input wire clock, //clock signal
     input wire enabled, //write enabled

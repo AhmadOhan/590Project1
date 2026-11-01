@@ -1,5 +1,4 @@
-//Control Unit
-module control_unit(
+module control_unit(//do tests
     input wire [3:0] opcode, //opcode
     input wire [3:0] func, //func code
     output reg regwrite, 

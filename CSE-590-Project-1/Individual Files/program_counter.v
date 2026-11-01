@@ -1,4 +1,3 @@
-// Program Counter
 module program_counter(//fix testbench
     input wire clock, //clock signal
     input wire reset, //reset flag

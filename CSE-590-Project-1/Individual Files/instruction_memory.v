@@ -1,4 +1,3 @@
-//Instruction Memory
 module instruction_memory(
     input wire [15:0] pc_address, // receiving a 16 bit input wire called pc_address from the PC
     output wire [15:0] instructions); //outputting a 16 bit wire called instructions from memory location

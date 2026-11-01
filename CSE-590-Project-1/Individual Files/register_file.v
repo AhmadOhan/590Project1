@@ -1,4 +1,3 @@
-//Register File
 module register_file(//fix testbench
     input wire clock, //clock signal
     input wire write_enabled, //write enabled

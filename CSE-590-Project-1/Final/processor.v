@@ -53,8 +53,8 @@ module processor(
         .instructions(instruction)); //grabs the instructions
     
     assign opcode   = instruction[15:12]; //opcode instruction mapping
-    assign rtrd_addr  = instruction[11:8]; //rs instruction mapping
-    assign rs_addr  = instruction[7:4]; //rt/rd instruction mapping
+    assign rs_addr  = instruction[11:8]; //rs instruction mapping
+    assign rtrd_addr  = instruction[7:4]; //rtrd instruction mapping
     assign imm_in   = instruction[3:0]; //immediate instruction mapping
     assign func_code  = instruction[3:0]; //func code for r type instructions
 
