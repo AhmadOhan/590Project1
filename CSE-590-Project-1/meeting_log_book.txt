@@ -31,3 +31,5 @@ Minutes from 10/17 at 3:00PM:
 Minutes from 10/18 at 3:00PM:
     - Files written (alu, instruction_memory, multiplexers, register_file, control_unit, data_memory, program_counter, sign_extension)
     - prepared for checkpoint
+
+NO LONGER NEEDED AS IT HAS BECOME A SOLO PROJECT!
